@@ -2,7 +2,7 @@
 
 This is a simple Python project that reads user data (Name, Age, Height in meters) from a CSV file, performs basic calculations, and outputs the results to another CSV file. It demonstrates basic data processing, file handling, and formatted string output using standard Python libraries.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 data-processing-project/
@@ -12,7 +12,7 @@ data-processing-project/
 └── run_process.sh        # Optional: Shell script for Linux/macOS users
 ```
 
-## 🚀 How to Run
+##  How to Run
 
 ### In Visual Studio Code (VS Code)
 1. Open the folder in VS Code.
@@ -32,18 +32,18 @@ data-processing-project/
    python process_data.py input.csv
    ```
 
-## 🧠 What It Does
+##  What It Does
 For each person in the CSV:
 - Calculates their age 10 years in the future.
 - Converts their height to centimeters.
 - Generates a greeting with both current and future values.
 
-## ✅ Example Output (output.csv)
+##  Example Output (output.csv)
 ```
 Name,Age,Future Age,Height (m),Height (cm),Greeting
 Alice,30,40,1.65,165.0,"Hello, Alice! You are 30 years old and 1.65 m tall. In 10 years, you'll be 40 years old and 165.0 cm tall."
 ...
 ```
 
-## 📄 License
+##  License
 This project is open-source and free to use under the MIT License.
